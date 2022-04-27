@@ -1,0 +1,47 @@
+blockquote, code, em, strong {
+  line-height: var(--global-line-height)
+}
+
+.logo, blockquote, code, footer, h1, h2, h3, h4, h5, h6, header, li, ol, p, section, ul {
+  float: none;
+  margin: 0;
+  padding: 0
+}
+
+.logo, blockquote, h1, ol, p, ul {
+  margin-top: calc(var(--global-space) * 2);
+  margin-bottom: calc(var(--global-space) * 2)
+}
+
+blockquote {
+  position: relative;
+  padding-left: calc(var(--global-space) * 2);
+  padding-left: 2ch;
+  overflow: hidden
+}
+
+blockquote::after {
+  content: ">\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>";
+  white-space: pre;
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: var(--global-line-height);
+  color: #9ca2ab
+}
+
+.terminal .logo, .terminal blockquote, .terminal code, .terminal h1, .terminal h2, .terminal h3, .terminal h4, .terminal h5, .terminal h6, .terminal strong {
+  font-size: var(--global-font-size);
+  font-style: normal;
+  font-family: var(--font-stack);
+  color: var(--font-color)
+}
+
+.blockquoteem {
+  font-style: italic;
+}
+
+.blockquotetimeline {
+  font-style: italic;
+  margin-left: 5px;
+}
