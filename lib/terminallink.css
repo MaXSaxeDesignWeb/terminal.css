@@ -1,0 +1,26 @@
+.link {
+  margin-left: 5px;
+}
+
+.terminal-link {
+  white-space: nowrap
+}
+
+.terminal-link::before {
+  margin-left: -5px;
+  content: "> "
+}
+
+.terminal-link::after {
+  content: "";
+  -webkit-animation: cursor .8s infinite;
+  animation: cursor .8s infinite;
+  background: var(--primary-color);
+  border-radius: 0;
+  display: inline-block;
+  height: 1em;
+  margin-left: .2em;
+  width: 3px;
+  bottom: -2px;
+  position: relative
+}
